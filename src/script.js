@@ -15,7 +15,7 @@
 
         function checkPassword() {
             const password = document.getElementById('passwordInput').value;
-            if (password.toLowerCase() === '091125') {
+            if (password.toLowerCase() === '091124') {
                 document.getElementById('loginScreen').style.display = 'none';
                 document.getElementById('mainContent').style.display = 'block';
             } else {
